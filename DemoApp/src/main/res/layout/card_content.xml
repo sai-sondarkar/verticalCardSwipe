@@ -1,33 +1,273 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.v7.widget.CardView
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    app:cardCornerRadius="10dp"
-    app:cardElevation="10dp">
+    android:layout_height="match_parent"
+    android:layout_marginBottom="32dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginTop="32dp"
+    android:background="@color/cardview_light_background"
+    card_view:cardCornerRadius="4dp"
+    card_view:cardElevation="2dp"
+    card_view:cardPreventCornerOverlap="false">
+
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@color/white"
         android:gravity="center"
-        android:minHeight="200dp"
         android:orientation="vertical">
 
-        <ImageView
+        <EditText
+            android:id="@+id/title_punch"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:adjustViewBounds="true"
-            android:padding="80dp"
-            android:src="@drawable/maplocation"/>
-
-        <TextView
-            android:id="@+id/content"
-            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            tools:text="any text"/>
+            android:layout_gravity="center"
+            android:paddingTop="100dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:hint="Write Title (75)"
+            android:inputType="text"
+            android:lines="1"
+            android:maxLength="75"
+            android:maxLines="1"
+            android:textColor="@color/text_color_user_profile"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:id="@+id/linear_images_punch"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/mainPost_heg"
+            android:layout_marginTop="4dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:weightSum="2">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="4dp"
+                android:layout_weight="1"
+                card_view:cardCornerRadius="6dp"
+                card_view:cardElevation="0dp"
+                card_view:cardPreventCornerOverlap="false">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/punch_image_1_back"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/punch_background" />
+
+                    <FrameLayout
+                        android:id="@+id/menu_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:background="@color/scrim"
+                        android:visibility="invisible">
+
+                        <com.ogaclejapan.arclayout.ArcLayout
+                            android:id="@id/arc_layout"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="@dimen/arc_margin"
+                            card_view:arc_freeAngle="true"
+                            card_view:arc_origin="bottom"
+                            card_view:arc_radius="@dimen/arc_radi">
+
+                            <Button
+                                android:id="@+id/pic_1_camera"
+                                style="@style/Item.Path"
+                                android:textColor="@color/primary"
+                                card_view:arc_angle="45"
+                                card_view:arc_origin="center" />
+
+                            <Button
+                                android:id="@+id/pic_1_gallery"
+                                style="@style/Item.Path"
+                                android:textColor="@color/primary"
+                                card_view:arc_angle="90"
+                                card_view:arc_origin="center" />
+
+                            <Button
+                                android:id="@+id/pic_1_net"
+                                style="@style/Item.Path"
+                                android:textColor="@color/primary"
+                                card_view:arc_angle="135"
+                                card_view:arc_origin="center" />
+                        </com.ogaclejapan.arclayout.ArcLayout>
+
+                    </FrameLayout>
+
+                    <ImageView
+                        android:id="@+id/image_1_add_btn"
+                        android:layout_width="@dimen/add_btn"
+                        android:layout_height="@dimen/add_btn"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/create_punch_plus" />
+
+                    <EditText
+                        android:id="@+id/text_input1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_margin="8dp"
+                        android:background="@android:color/transparent"
+                        android:gravity="center"
+                        android:hint="Add a Text 1"
+                        android:inputType="textMultiLine"
+                        android:maxLength="96"
+                        android:scrollbars="vertical"
+                        android:textColor="@color/white"
+                        android:textColorHint="@color/white"
+                        android:textSize="18sp"
+                        android:visibility="gone" />
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="4dp"
+                android:layout_weight="1"
+                card_view:cardCornerRadius="6dp"
+                card_view:cardElevation="0dp"
+                card_view:cardPreventCornerOverlap="false">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/punch_image_2_back"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/punch_background" />
+
+                    <FrameLayout
+                        android:id="@+id/menu_layout2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/scrim"
+                        android:visibility="invisible">
+
+                        <com.ogaclejapan.arclayout.ArcLayout
+                            android:id="@id/arc_layout2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="@dimen/arc_margin"
+                            card_view:arc_freeAngle="true"
+                            card_view:arc_origin="bottom"
+                            card_view:arc_radius="@dimen/arc_radi">
+
+                            <Button
+                                android:id="@+id/pic_2_camera"
+                                style="@style/Item.Path"
+                                android:textColor="@color/primary"
+                                card_view:arc_angle="45"
+                                card_view:arc_origin="center" />
+
+                            <Button
+                                android:id="@+id/pic_2_gallery"
+                                style="@style/Item.Path"
+                                android:textColor="@color/primary"
+                                card_view:arc_angle="90"
+                                card_view:arc_origin="center" />
+
+                            <Button
+                                android:id="@+id/pic_2_net"
+                                style="@style/Item.Path"
+                                android:textColor="@color/primary"
+                                card_view:arc_angle="135"
+                                card_view:arc_origin="center" />
+                        </com.ogaclejapan.arclayout.ArcLayout>
+
+                    </FrameLayout>
+
+                    <ImageView
+                        android:id="@+id/image_2_add_btn"
+                        android:layout_width="@dimen/add_btn"
+                        android:layout_height="@dimen/add_btn"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/create_punch_plus" />
+
+                    <EditText
+                        android:id="@+id/text_input2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_margin="8dp"
+                        android:background="@android:color/transparent"
+                        android:gravity="center"
+                        android:hint="Add a Text 2"
+                        android:inputType="textMultiLine"
+                        android:maxLength="96"
+                        android:scrollbars="vertical"
+                        android:textColor="@color/white"
+                        android:textColorHint="@color/white"
+                        android:textSize="18sp"
+                        android:visibility="gone" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:paddingBottom="50dp"
+            android:weightSum="1">
+
+            <EditText
+                android:id="@+id/title1_punch"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:layout_weight="0.5"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                android:hint="Add a Title"
+                android:inputType="text"
+                android:maxLength="20"
+                android:maxLines="1"
+                android:textColor="@color/text_color_user_profile"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/title2_punch"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:layout_weight="0.5"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                android:hint="Add a Title"
+                android:inputType="text"
+                android:maxLength="20"
+                android:maxLines="1"
+                android:textColor="@color/text_color_user_profile"
+                android:textSize="18sp" />
+        </LinearLayout>
 
     </LinearLayout>
 </android.support.v7.widget.CardView>

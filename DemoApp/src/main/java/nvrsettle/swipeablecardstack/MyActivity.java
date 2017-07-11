@@ -32,12 +32,17 @@ public class MyActivity extends Activity {
         mCardAdapter.add("test5");
         mCardAdapter.add("test6");
         mCardAdapter.add("test7");
+        mCardAdapter.add("test8");
+        mCardAdapter.add("test9");
+        mCardAdapter.add("test10");
 
         mCardStack.setAdapter(mCardAdapter);
 
         if (mCardStack.getAdapter() != null) {
             Log.i("MyActivity", "Card Stack size: " + mCardStack.getAdapter().getCount());
         }
+        mCardStack.setStackMargin(mCardStack.getStackMargin() - 5);
+        mCardStack.setVisibleCardNum(mCardStack.getVisibleCardNum() + 3);
     }
 
 

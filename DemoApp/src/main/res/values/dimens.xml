@@ -2,4 +2,483 @@
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="layout_child_offset_path">114dp</dimen>
+    <dimen name="layout_radius_path">140dp</dimen>
+    <dimen name="item_circle_size_path">30dp</dimen>
+    <dimen name="item_font_size_path">14sp</dimen>
+
+    <!--for button -->
+
+
+    <!--for login_signup_mainscreen -->
+
+    <dimen name="loginEmail">280dp</dimen>
+    <dimen name="login_t_size">17sp</dimen>
+    <dimen name="Image_margin">50dp</dimen>
+    <dimen name="RelativeMargin">20dp</dimen>
+    <dimen name="LinearMargin">60dp</dimen>
+    <dimen name="viewMargin">50dp</dimen>
+    <dimen name="viewMarginTop">20dp</dimen>
+    <dimen name="viewWidth">80dp</dimen>
+    <dimen name="viewHeight">0.5dp</dimen>
+    <dimen name="view_topHeight">4dp</dimen>
+    <dimen name="button_width">180dp</dimen>
+    <dimen name="button_height">35dp</dimen>
+    <dimen name="button_marginTop">20dp</dimen>
+    <dimen name="layout_margin">5dp</dimen>
+    <dimen name="layout_margin_top">20dp</dimen>
+    <dimen name="layout_margin_bottom">10dp</dimen>
+    <dimen name="t_paddingLeft">5dp</dimen>
+    <dimen name="t_paddingRight">5dp</dimen>
+    <dimen name="font_size">13sp</dimen>
+    <dimen name="t_size">10sp</dimen>
+    <dimen name="signup_t_size">15sp</dimen>
+    <dimen name="padding_left">5dp</dimen>
+    <dimen name="padding_right">5dp</dimen>
+
+
+    <!--activity_chooser_punch-->
+
+    <dimen name="t_top">50dp</dimen>
+    <dimen name="heading_size">25sp</dimen>
+    <dimen name="view_width">2dp</dimen>
+    <dimen name="view_height">300dp</dimen>
+    <dimen name="community_size">16sp</dimen>
+
+    <!--activity_comment-->
+
+    <dimen name="linear_h">40dp</dimen>
+    <dimen name="p_left">10dp</dimen>
+    <dimen name="comment_text">18sp</dimen>
+
+
+    <!--activity_community_view-->
+
+    <dimen name="image_marginRight">10dp</dimen>
+    <dimen name="frame_marginTop">40dp</dimen>
+
+    <dimen name="c1_width_height">50dp</dimen>
+    <dimen name="c1_marginleft">30dp</dimen>
+    <dimen name="c5_marginleft">236dp</dimen>
+
+    <dimen name="c1_border_width">0.05dp</dimen>
+
+    <dimen name="c2_w_ht">70dp</dimen>
+    <dimen name="c2_marginleft">65dp</dimen>
+    <dimen name="c4_m_left">185dp</dimen>
+
+    <dimen name="c2_border_width">0.05dp</dimen>
+
+    <dimen name="c3_ht_w">100dp</dimen>
+    <dimen name="c3_b_width">3dp</dimen>
+
+
+    <dimen name="m_top">5dp</dimen>
+    <dimen name="my_comm_text">18sp</dimen>
+
+    <dimen name="layout_top">10dp</dimen>
+    <dimen name="post_info_text">12sp</dimen>
+
+    <dimen name="follow_ht">15dp</dimen>
+
+    <dimen name="sml_view_ht">1dp</dimen>
+    <dimen name="view_ht">5dp</dimen>
+    <dimen name="layout_v_top">8dp</dimen>
+
+    <dimen name="recycle_m_left">3dp</dimen>
+
+    <!--activity_create_community-->
+
+
+    <dimen name="img_width_height">80dp</dimen>
+    <dimen name="img_top">70dp</dimen>
+    <dimen name="create_btm">5dp</dimen>
+    <dimen name="create_top">5dp</dimen>
+    <dimen name="desc_m_left">5dp</dimen>
+    <dimen name="desc_top">10dp</dimen>
+    <dimen name="desc_tSize">14sp</dimen>
+    <dimen name="comm_desc_top">5dp</dimen>
+    <dimen name="comm_desc_tsize">12sp</dimen>
+
+    <dimen name="relativ_top">5dp</dimen>
+    <dimen name="spinner_left">15dp</dimen>
+    <dimen name="btn_top">10dp</dimen>
+    <dimen name="btn_tsize">12sp</dimen>
+
+
+    <!--activity_crop_img-->
+
+    <dimen name="ap_btn_top">16dp</dimen>
+
+    <!--activity_fzone_main-->
+
+    <dimen name="recyl_padding">5dp</dimen>
+    <dimen name="search_right">10dp</dimen>
+
+    <!--activity_home_community-->
+
+    <dimen name="layout_padding">15dp</dimen>
+    <dimen name="btn_width">160dp</dimen>
+    <dimen name="btn_mtop">10dp</dimen>
+    <dimen name="grid_left_right">10dp</dimen>
+    <dimen name="vertical_spac">10dp</dimen>
+
+
+    <!--activity_notification_card-->
+
+    <dimen name="lay_padding">8dp</dimen>
+    <dimen name="circlr_width_ht">35dp</dimen>
+    <dimen name="m_left">8dp</dimen>
+    <dimen name="m_right">13dp</dimen>
+    <dimen name="cmt_text">14sp</dimen>
+    <dimen name="time_text">9sp</dimen>
+
+
+    <!--activity_search-->
+
+    <dimen name="search_size">18sp</dimen>
+    <dimen name="textview_search">17sp</dimen>
+
+    <!--setting_user-->
+
+    <dimen name="lay_top">30dp</dimen>
+    <dimen name="mleft">15dp</dimen>
+    <dimen name="setting_text">15sp</dimen>
+    <dimen name="v_left">60dp</dimen>
+    <dimen name="lay2_top">5dp</dimen>
+    <dimen name="sign_mleft">10dp</dimen>
+
+    <!--tag_selection-->
+
+
+    <dimen name="layout_mtop">10dp</dimen>
+    <dimen name="btn_ht">30dp</dimen>
+
+
+    <!--user_profile_changepassword-->
+
+
+    <dimen name="NewpasswordTop">20dp</dimen>
+    <dimen name="password_layout_width">220dp</dimen>
+    <dimen name="done_btntop">20dp</dimen>
+    <!--user_profile_edit-->
+
+    <dimen name="toolbar_right">10dp</dimen>
+    <dimen name="edit_size">220dp</dimen>
+    <dimen name="edit_top">50dp</dimen>
+    <dimen name="edit_tsize">18sp</dimen>
+    <dimen name="edit2_top">20dp</dimen>
+    <dimen name="cirl_wdt_ht">80dp</dimen>
+    <dimen name="cirl_top">25dp</dimen>
+
+
+    <!--comment_custom-->
+
+    <dimen name="commt_wdt">14dp</dimen>
+    <dimen name="cmt_left">10dp</dimen>
+    <dimen name="cmt_padding">7dp</dimen>
+    <dimen name="brdr_wdt">1dp</dimen>
+
+    <dimen name="lay_left">10dp</dimen>
+    <dimen name="lay_right">15dp</dimen>
+    <dimen name="cmt_tsize">13sp</dimen>
+    <dimen name="cmmnt_tsize">11sp</dimen>
+
+
+    <!--community_display-->
+
+    <dimen name="corner_radius">6dp</dimen>
+    <dimen name="img_wd_ht">90dp</dimen>
+    <dimen name="v_wdt">3dp</dimen>
+    <dimen name="v_ht">25dp</dimen>
+    <dimen name="ttl_left">2dp</dimen>
+    <dimen name="ttl_top">3dp</dimen>
+    <dimen name="ttl_size">14sp</dimen>
+
+
+    <!--tags_incommmunity-->
+
+    <dimen name="lay_rt_tp_btm">8dp</dimen>
+    <dimen name="tview_tp_btm">4dp</dimen>
+    <dimen name="tview_left_right">10dp</dimen>
+
+
+    <!--toolbar_sizes-->
+
+    <dimen name="elevation">5dp</dimen>
+    <dimen name="toolbar_text_size">20sp</dimen>
+
+    <!--tag_selection-->
+
+    <dimen name="txt_size">20sp</dimen>
+
+
+    <!--image_search-->
+
+    <dimen name="img_wt_ht">80dp</dimen>
+
+    <!--image_search_api-->
+
+    <dimen name="grid">10dp</dimen>
+
+    <!--invite_friend-->
+
+    <dimen name="imgview">35dp</dimen>
+    <dimen name="frnd_name">18sp</dimen>
+    <dimen name="btn_hight">25dp</dimen>
+
+
+    <!--login_dialog-->
+
+    <dimen name="pding">15dp</dimen>
+    <dimen name="name_top">5dp</dimen>
+    <dimen name="dialog_top">10dp</dimen>
+
+
+    <!--members_Comm_view-->
+
+    <dimen name="view_hight">8dp</dimen>
+
+
+    <!--members_Comm_view-->
+
+    <dimen name="member_wdt_ht">50dp</dimen>
+    <dimen name="layout_left">5dp</dimen>
+    <dimen name="name_size">16sp</dimen>
+    <dimen name="ninja_size">14sp</dimen>
+    <dimen name="v_hight">1.5dp</dimen>
+    <dimen name="admin_size">20dp</dimen>
+
+    <!--report_on_post-->
+
+
+    <dimen name="t_pading">10dp</dimen>
+    <dimen name="tsize">18sp</dimen>
+
+
+    <!--select_comm_custom-->
+
+    <dimen name="pading">5dp</dimen>
+    <dimen name="img_width_ht">60dp</dimen>
+    <dimen name="select_size">16sp</dimen>
+    <dimen name="border">1dp</dimen>
+    <dimen name="select_left">5dp</dimen>
+
+
+    <!--tag_selection_custom_punch-->
+
+    <dimen name="pding_btm">15dp</dimen>
+    <dimen name="grid_lft">15dp</dimen>
+    <dimen name="grid_top">12dp</dimen>
+    <dimen name="grid_Hspacing">25dp</dimen>
+    <dimen name="grid_Vspacing">10dp</dimen>
+    <dimen name="btn_margin">12dp</dimen>
+    <dimen name="button_ht">30dp</dimen>
+
+    <!--unfollow_dialog_punch-->
+
+    <dimen name="unfollow_wt_ht">60dp</dimen>
+    <dimen name="unfollow_top">20dp</dimen>
+    <dimen name="unfollow_border">0.5dp</dimen>
+    <dimen name="unfollow_mtop">40dp</dimen>
+    <dimen name="unfollow_tsize">18sp</dimen>
+    <dimen name="unfollow_vtop">40dp</dimen>
+
+
+    <dimen name="canl_unfolow">17sp</dimen>
+    <dimen name="v_width">1dp</dimen>
+    <dimen name="v_height">30dp</dimen>
+
+    <!--varification_email-->
+
+    <dimen name="gmail_padding">5dp</dimen>
+
+    <!--viewpager_bottombar-->
+
+    <dimen name="tab_elevation">15dp</dimen>
+    <dimen name="tab_height">50dp</dimen>
+
+
+    <!--user_profile-->
+
+    <dimen name="layout_pding_btm">20dp</dimen>
+    <dimen name="profile_wdt_ht">100dp</dimen>
+    <dimen name="profile_top">5dp</dimen>
+    <dimen name="profile_border">2dp</dimen>
+
+    <dimen name="username">20sp</dimen>
+    <dimen name="usertop">10dp</dimen>
+
+    <dimen name="view_top">5dp</dimen>
+    <dimen name="f_size">15sp</dimen>
+    <dimen name="profile_f_size">13sp</dimen>
+
+    <dimen name="view_wdt">1dp</dimen>
+    <dimen name="layout_v_ht">35dp</dimen>
+    <dimen name="layout_view_top">10dp</dimen>
+
+    <dimen name="btn_wdt">150dp</dimen>
+    <dimen name="editbtn_top">10dp</dimen>
+    <dimen name="edit_padding">30dp</dimen>
+
+    <dimen name="wal_ht">40dp</dimen>
+    <dimen name="tabWal_ht">30dp</dimen>
+    <dimen name="tabcomm_ht">35dp</dimen>
+    <dimen name="wal_view_ht">28dp</dimen>
+    <dimen name="wal_view_wdt">1dp</dimen>
+
+
+
+    <!--sign_up-->
+
+    <dimen name="logo_top">36dp</dimen>
+    <dimen name="email_size">13sp</dimen>
+    <dimen name="ll_top">12dp</dimen>
+    <dimen name="signup_top">5dp</dimen>
+    <dimen name="signup_wdt">170dp</dimen>
+    <dimen name="signup_ht">36dp</dimen>
+
+
+
+    <!--explore_card_view-->
+    <dimen name="top_floatingButton">68dp</dimen>
+
+
+    <dimen name="frame_top">100dp</dimen>
+    <dimen name="flot_wdt_ht">30dp</dimen>
+    <dimen name="flot_btm">5dp</dimen>
+    <dimen name="flot_right">15dp</dimen>
+
+    <dimen name="card">8dp</dimen>
+    <dimen name="card_radius">10dp</dimen>
+    <dimen name="card_ele">4dp</dimen>
+    <dimen name="cardMax">2dp</dimen>
+    <dimen name="comm_dp">80dp</dimen>
+
+    <dimen name="name_left">2dp</dimen>
+    <dimen name="comm_name_top">8dp</dimen>
+    <dimen name="comm_name_size">15sp</dimen>
+    <dimen name="desci_top">1dp</dimen>
+    <dimen name="desci_size">11sp</dimen>
+
+
+
+
+    <!--create_punch-->
+
+    <dimen name="title_width">290dp</dimen>
+
+    <dimen name="punch_top">10dp</dimen>
+    <dimen name="punch_text">17sp</dimen>
+    <dimen name="img_punch_pading">20dp</dimen>
+
+    <dimen name="card_right">5dp</dimen>
+    <dimen name="card_radi">10dp</dimen>
+
+    <dimen name="arc_margin">155dp</dimen>
+    <dimen name="arc_radi">80dp</dimen>
+    <dimen name="height_punch">250dp</dimen>
+
+    <dimen name="add_btn">35dp</dimen>
+
+    <dimen name="title_left_right">17dp</dimen>
+
+    <dimen name="submit_top">5dp</dimen>
+
+
+    <!--main_post-->
+
+    <dimen name="mainPost_heg">210dp</dimen>
+    <dimen name="heg_dp">10dp</dimen>
+
+    <dimen name="main_margin">12dp</dimen>
+    <dimen name="relativ_padding">2dp</dimen>
+
+    <dimen name="circl">40dp</dimen>
+    <dimen name="circl_left">4dp</dimen>
+    <dimen name="profile_left">10dp</dimen>
+    <dimen name="profile_size">14sp</dimen>
+
+    <dimen name="arrow_right">5dp</dimen>
+    <dimen name="arrow_padding">5dp</dimen>
+
+
+    <dimen name="stemp_left">10dp</dimen>
+    <dimen name="stemp_size">10sp</dimen>
+
+    <dimen name="view1_ht">1dp</dimen>
+
+    <dimen name="title_extra">4dp</dimen>
+    <dimen name="post_title">14sp</dimen>
+    <dimen name="container">8dp</dimen>
+    <dimen name="cont_right">10dp</dimen>
+
+    <dimen name="card1_btm_top">5dp</dimen>
+    <dimen name="card1_left">10dp</dimen>
+    <dimen name="card1_radius">8dp</dimen>
+
+    <dimen name="punch">60dp</dimen>
+
+    <dimen name="topic_top">2dp</dimen>
+    <dimen name="img1_title">4dp</dimen>
+
+    <dimen name="viewText_wdt">100dp</dimen>
+    <dimen name="viewText_ht">1dp</dimen>
+
+    <dimen name="multipl_margin">4dp</dimen>
+    <dimen name="post_tag_size">15sp</dimen>
+
+    <dimen name="punch_cmmnt">38dp</dimen>
+    <dimen name="comt_textview">21dp</dimen>
+    <dimen name="comt_textsize">7sp</dimen>
+
+    <dimen name="share_btn">40dp</dimen>
+    <dimen name="tags_btn_ht">27dp</dimen>
+
+    <dimen name="btm_view_ht">4dp</dimen>
+
+    <dimen name="btm_view2_ht">1dp</dimen>
+
+
+
+
+    <!--report_otpion-->
+
+
+    <dimen name="radio_padding">10dp</dimen>
+    <dimen name="radio_size">13sp</dimen>
+
+    <dimen name="v1_hight">1dp</dimen>
+    <dimen name="v1_top">10dp</dimen>
+
+    <dimen name="report_size">14sp</dimen>
+
+    <dimen name="v3_hight">30dp</dimen>
+
+    <dimen name="report_left_top">10dp</dimen>
+
+
+
+    <!--activity_about_us-->
+
+
+    <dimen name="about_card">8dp</dimen>
+    <dimen name="about_radius">10dp</dimen>
+    <dimen name="about_btn">35dp</dimen>
+    <dimen name="about_card_tsize">12sp</dimen>
+    <dimen name="quat_pading">8dp</dimen>
+    <dimen name="quat_left">16dp</dimen>
+    <dimen name="lay_tp">8dp</dimen>
+    <dimen name="punchit_tsize">22sp</dimen>
+    <dimen name="version_tsize">15sp</dimen>
+
+    <dimen name="about_btn_top">8dp</dimen>
+    <dimen name="about_btn_padding">8dp</dimen>
+    <dimen name="about_btn_tsize">15sp</dimen>
+
+
+
+
+
+
 </resources>
